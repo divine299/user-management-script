@@ -8,3 +8,5 @@ This repository contains a bash script for automating the creation of Linux user
 - `README.md`: This file, providing an overview of the script and usage instructions.
 
 ## Usage
+
+1. Ensure you have a text file (e.g., `users.txt`) with the following format:
