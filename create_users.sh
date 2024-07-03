@@ -3,7 +3,7 @@
 # Log file
 LOG_FILE="/var/log/user_management.log"
 # Secure file for storing passwords
-PASSWORD_FILE="/var/secure/user_passwords.csv"
+PASSWORD_FILE="/var/secure/user_passwords.txt"
 
 # Function to generate random passwords
 generate_password() {
