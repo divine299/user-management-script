@@ -48,6 +48,8 @@ while IFS=';' read -r username groups; do
     IFS=',' read -r -a group_array <<< "$groups"
     for group in "${group_array[@]}"; do
         group=$(echo "$group" | xargs)
+        # Handle group names with special characters
+        group=$(echo "$group" | sed 's/[^a-zA-Z0-9_-]//g')
         # Check if the group exists, if not create it
         if ! getent group "$group" > /dev/null; then
             groupadd "$group"
