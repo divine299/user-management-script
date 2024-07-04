@@ -9,4 +9,4 @@ This repository contains a bash script for automating the creation of Linux user
 
 ## Usage
 
-1. Ensure you have a text file (e.g., `users.txt`) with the following format:
+1. Ensure you have a text file (e.g., `users.txt`) with the following format: light; sudo,dev,www-data
